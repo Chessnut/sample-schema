@@ -6,6 +6,6 @@ SCHEMA.uniqueID = "sample" -- Schema will be a unique identifier stored in the d
 
 -- Configure some stuff specific to this schema.
 nut.currency.SetUp("bean", "beans")
-nut.config.menuMusic = "http://7659.live.streamtheworld.com:80/977_OLDIES_SC"
+nut.config.menuMusic = "http://7609.live.streamtheworld.com:80/977_SMOOJAZZ_SC"
 
 nut.util.Include("sv_hooks.lua")
