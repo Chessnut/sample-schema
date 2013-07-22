@@ -1,6 +1,7 @@
 local CLASS = {}
 	CLASS.name = "Metrocop Recruit"
 	CLASS.uniqueID = "cp_rct"
+	CLASS.faction = FACTION_CP
 
 	function CLASS:OnSet(client)
 		client:SetModel("models/Barney.mdl")
