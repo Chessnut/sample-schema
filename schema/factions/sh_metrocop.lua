@@ -6,11 +6,9 @@ FACTION.desc = "Citizens who joined the Combine as a policing force."
 -- name color in OOC chat.
 FACTION.color = Color(70, 70, 220)
 -- Set the male model choices for character creation.
-FACTION.maleModels = {
+FACTION.models = {
 	"models/police.mdl"
 }
--- Set the female models to be the same as male models.
-FACTION.femaleModels = FACTION.maleModels
 -- Set it so the faction requires a whitelist.
 FACTION.isDefault = false
 
