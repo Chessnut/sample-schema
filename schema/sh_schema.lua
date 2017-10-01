@@ -1,11 +1,9 @@
 SCHEMA.name = "Sample"
-SCHEMA.author = "Chessnut"
+SCHEMA.author = "Casadis"
 SCHEMA.desc = "An example schema that is very basic."
 SCHEMA.uniqueID = "sample" -- Schema will be a unique identifier stored in the database.
 -- Using a uniqueID will allow for renaming the schema folder.
 
--- Configure some stuff specific to this schema.
-nut.currency.set("", "bean", "beans")
-nut.config.menuMusic = "http://7609.live.streamtheworld.com:80/977_SMOOJAZZ_SC"
+nut.util.include("sh_config.lua");
 
 nut.util.includeDir("hooks")

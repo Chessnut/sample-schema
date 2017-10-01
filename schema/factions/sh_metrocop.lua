@@ -12,11 +12,6 @@ FACTION.models = {
 -- Set it so the faction requires a whitelist.
 FACTION.isDefault = false
 
--- Return what the name will be set for character creation.
-function FACTION:GetDefaultName()
-	return "CP-RCT."..math.random(11111, 99999)
-end
-
 -- FACTION.index is defined when the faction is registered and is just a numeric ID.
 -- Here, we create a global variable for easier reference to the ID.
 FACTION_CP = FACTION.index
