@@ -23,13 +23,13 @@
 --]]
 
 -- We define a clean plugin name that will be displayed on a list of loaded plugins.
-PLUGIN.name = "Hello World"
+PLUGIN.name = "Hello World";
 
 -- The author of the plugin will show up under the title.
-PLUGIN.author = "Chessnut"
+PLUGIN.author = "Chessnut";
 
 -- In addition, we also add the description to have people know what it does.
-PLUGIN.desc = "Welcomes players to the server with a greeting."
+PLUGIN.desc = "Welcomes players to the server with a greeting.";
 
 --[[
 	As you can see below, we have a hook. Just like we would define hooks in a gamemode or entity,
@@ -38,5 +38,5 @@ PLUGIN.desc = "Welcomes players to the server with a greeting."
 	schema/framework.
 --]]
 function PLUGIN:PlayerSpawn(client)
-	client:ChatPrint("Hello "..client:Name().."!")
+	client:ChatPrint("Hello " .. client:Name() .. "!");
 end

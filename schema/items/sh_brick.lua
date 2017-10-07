@@ -1,3 +1,3 @@
-ITEM.name = "Brick"
-ITEM.model = Model("models/props_junk/CinderBlock01a.mdl")
-ITEM.desc = "My friend is %Friend|no one%."
+ITEM.name = "Brick";
+ITEM.model = "models/props_junk/CinderBlock01a.mdl";
+ITEM.desc = "A grey cinderblock.";

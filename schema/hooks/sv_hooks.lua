@@ -1,3 +1,5 @@
+print("sv_hooks");
+
 --[[
 	-- Purpose: Called to allow items to be added to a character during
 	-- character creation. The inventory table is passed which contains

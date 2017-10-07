@@ -1,1 +1,1 @@
-DeriveGamemode("nutscript")
+DeriveGamemode("nutscript");
